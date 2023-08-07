@@ -94,3 +94,39 @@ p {
   background-color: var(--primary-color);
   color: white;
 }
+
+@media (max-width: 576px) {
+  h1,
+  h2,
+  h3,
+  p,
+  .subHead,
+  .subBtn {
+    display: block;
+    text-align: center;
+  }
+
+  h1,
+  h2,
+  h3 {
+    padding: 10px 5px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .navigation-links {
+    flex-direction: column;
+  }
+  .navigation-links a {
+    text-align: center;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+}
